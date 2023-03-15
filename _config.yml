@@ -2,8 +2,6 @@
 title:            defnought
 tagline:          'mainly devlog'
 description:      'mainly devlog'
-url:              https://defnought.github.io
-baseurl:          '/'
 paginate:         3
 
 # About and contact
