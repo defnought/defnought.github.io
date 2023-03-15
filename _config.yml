@@ -1,0 +1,29 @@
+# Setup
+title:            defnought
+tagline:          'mainly devlog'
+description:      'mainly devlog'
+url:              https://defnought.github.io
+baseurl:          '/'
+paginate:         3
+
+# About and contact
+author:
+  name:           'waweruu'
+  url:            https://github.com/waweruu
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-archives
+  - jekyll-feed
+  - jekyll-sitemap
+
+collections:
+  tags:
+    output: true
+    permalink: tags/:path/
+
+  feeds:
+    output: true
+    permalink: feeds/:path/
